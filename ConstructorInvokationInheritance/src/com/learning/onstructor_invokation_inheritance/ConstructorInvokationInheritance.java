@@ -34,8 +34,10 @@ public class ConstructorInvokationInheritance extends DemoP {
 	
 	ConstructorInvokationInheritance(int number,int x)
 	{
+		//call to the super has to be the first line in constructor invokation
 		super(x);
 		this.number=number;
+		
 	}
 
 	void show()
