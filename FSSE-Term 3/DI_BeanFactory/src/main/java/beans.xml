@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+<!-- 	<bean name="smart"
+		class="com.learning.dependancyinjection_beanfactory.DI_BeanFactory.SmartTV"
+		autowire="constructor">
+		<property name="videoType" value="WebSeries"></property>
+		<constructor-arg value="WebSeries"/>
+	</bean>
+
+	<bean name="mob"
+		class="com.learning.dependancyinjection_beanfactory.DI_BeanFactory.MobileApp"
+		autowire="constructor">
+		<property name="videoType" value="Movies"></property>
+		<constructor-arg value="Movies"/>
+	</bean> -->
+	
+	<bean name="milkshake"
+		class="com.learning.dependancyinjection_beanfactory.DI_BeanFactory.Milkshakes"
+		autowire="byName">
+		<property name="flavor" ref="flavorName"></property>
+		<!-- <constructor-arg value="WebSeries"/> -->
+	</bean>
+	
+	<bean name="flavorName"
+		class="com.learning.dependancyinjection_beanfactory.DI_BeanFactory.Flavor">
+		<property name="fruitName" value="Mango"></property>
+		<!-- <constructor-arg value="WebSeries"/> -->
+	</bean>
+</beans>
