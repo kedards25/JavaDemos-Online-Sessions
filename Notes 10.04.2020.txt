@@ -1,0 +1,75 @@
+[def]
+dog,elephant,frog
+
+
+[^def]
+
+mango?	=>statement should have mango only once or not at all
+mango*  ->optional=>statement may or may not have mango
+mango+  ->Must 	  =>minimum one occurrence of word mango in statement
+mango{n}=>occurrence of mango exactly n times
+mango{n,}=>occurrence of mango minimum n times and no maximum limit
+mango{n,m}=>occurrence of mango minimum n times and maximum m times
+
+Task1
+	create a calci using GUI
+
+Task2
+	Registration-login with validation
+
+Task3
+	Read all chapters and check if we are left with anything
+	
+
+Monday task checking and doubt solving session
+MVC
+
+Model	->POJO
+View	->client Side
+Controller->Logic
+
+
+POJO->Plain Old Java Object
+	private variables
+	an empty/no-arg constructor
+	parameterised constructor
+	getters and setters for the variables
+	toString method
+
+GUI--->button click events---->instead of writing logic separately in buttonClick 
+				event of each GUI
+				We are keeping our logic in a separate class
+				called as controller
+
+
+				instead of passing all the parameters individually
+				we are providing a centralised access to data 
+				using model
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
