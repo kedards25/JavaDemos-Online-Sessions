@@ -1,9 +1,11 @@
 package com.learning.genericdemo;
 
 //To declare given class as generic class 
-//we have to pass generic type as diamond operator
+//wehave to pass generic type as diamond operator
+//Generic type always expects class type and not the premitive type
 public class GenericDemo<T> {
 
+	
 	//same generic type is prefixed with variable
 	T num;
 	
@@ -21,6 +23,8 @@ public class GenericDemo<T> {
 		
 		System.out.println("Variable as double type");
 		//num is treated as double num
+		//While creating object of the class
+		//we are creating object of wrapper class as well
 		GenericDemo<Double> doubleObj=new GenericDemo();
 		doubleObj.show(25.52);
 		

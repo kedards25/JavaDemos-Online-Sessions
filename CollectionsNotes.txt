@@ -1,0 +1,32 @@
+Collections
+	Collection of objects
+	which can grow or shrink dynamically
+
+	List
+		Arranges data according to index and not the values hence
+		duplicate values are allowed
+		ArrayList
+			Stores value based on index next to each other
+		LinkedList
+			Stores value based on index randomly but interconnected 
+		VectorList
+			Stores value synchronously
+
+	Set
+		Arranges data according to values and not the indexes hence
+		duplicate values are not allowed
+		TreeSet
+			Sorts the data
+		HashSet
+			does not sort the data
+
+
+	Map
+		Arranges data according to key,value pair
+ 		hence duplicate values are allowed and not the keys
+		TreeMap
+			Sorts the data based on Keys and accepts null values
+		HashMap
+			does not sort the data and accepts null values
+		HashTable
+			Stores value synchronously and cannot store null values
