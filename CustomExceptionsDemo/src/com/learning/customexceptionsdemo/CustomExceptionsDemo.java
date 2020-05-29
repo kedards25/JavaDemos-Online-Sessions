@@ -8,6 +8,7 @@ class GreaterNumberException extends Exception {
 		// The received msg parameter is passed to parent class's
 		// parameterised constructor
 		super(msg);
+		System.out.println("Constr: "+msg);
 	}
 }
 
@@ -64,8 +65,8 @@ public class CustomExceptionsDemo {
 	public static void main(String[] args) {
 		CustomExceptionsDemo demo = new CustomExceptionsDemo();
 		demo.acceptData();
-		//demo.performOperation();
-		demo.divideNums();
+		demo.performOperation();
+		//demo.divideNums();
 
 	}
 

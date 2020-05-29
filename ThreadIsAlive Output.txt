@@ -1,0 +1,92 @@
+Main starting..
+Main creating object
+is Main alive??true
+is child thread alive in main??false
+
+Main invoking child
+is child thread alive in main after runnable state??true
+Main sleeping for 1000 ms
+
+Is child alive in its function??true-0
+From child function
+
+Is child alive in its function??true-1
+From child function
+
+Is child alive in its function??true-2
+From child function
+
+Is child alive in its function??true-3
+From child function
+
+Is child alive in its function??true-4
+From child function
+
+is child thread alive in main immediately after sleep main sleeps??true
+Child thread was interrupted by main
+is child thread interrupted by main??false
+
+Is child alive in its function??true-5
+From child function
+is Main alive immediately after sleep??true-0
+Main sleeping for 1000 ms
+
+Is child alive in its function??true-6
+From child function
+
+Is child alive in its function??true-7
+From child function
+
+Is child alive in its function??true-8
+From child function
+
+Is child alive in its function??true-9
+From child function
+
+is child thread alive in main immediately after sleep main sleeps??true
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-1
+Main sleeping for 1000 ms
+Child thread was interrupted by main
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-2
+Main sleeping for 1000 ms
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-3
+Main sleeping for 1000 ms
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-4
+Main sleeping for 1000 ms
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-5
+Main sleeping for 1000 ms
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-6
+Main sleeping for 1000 ms
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-7
+Main sleeping for 1000 ms
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-8
+Main sleeping for 1000 ms
+
+is child thread alive in main immediately after sleep main sleeps??false
+is child thread interrupted by main??false
+is Main alive immediately after sleep??true-9
+
+is Main alive after sleep??true
+Main Finished

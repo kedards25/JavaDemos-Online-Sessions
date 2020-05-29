@@ -11,6 +11,7 @@
 		<c:forEach var="user" items="${userList}">
 				<c:out value="${user.getUserName() }"></c:out>
 				<c:out value="${user.getUserPwd() }"></c:out>
+				<a href="edit/${user.getId() }">Edit</a>
 				<br/>
 		</c:forEach>
 	

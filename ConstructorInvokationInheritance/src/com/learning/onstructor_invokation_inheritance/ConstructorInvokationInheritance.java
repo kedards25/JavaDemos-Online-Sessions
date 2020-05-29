@@ -27,7 +27,7 @@ public class ConstructorInvokationInheritance extends DemoP {
 	//call to super class constructor is given by default in case of no-arg constructor
 	ConstructorInvokationInheritance()
 	{
-		super();
+		//super();
 		number=7;
 	}
 

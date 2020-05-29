@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.learning.springhibernateconfig.models.UserData"
+		table="UserData">
+		<id name="userId" type="int">
+			<column name="userId" />
+			<generator class="identity"></generator>
+		</id>
+		<property name="name" type="string">
+			<column name="userName" length="20"></column>
+		</property>
+		<property name="addr" type="string">
+			<column name="userAddr" length="20"></column>
+		</property>
+		<property name="pass" type="string">
+			<column name="userPass" length="20"></column>
+		</property>
+	</class>
+</hibernate-mapping>

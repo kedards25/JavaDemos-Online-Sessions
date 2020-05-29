@@ -47,6 +47,7 @@ public class UserDAO_Impl implements IUserDao {
 					model=new UserModel();
 					model.setUserName(resultSet.getString("name"));
 					model.setUserPwd(resultSet.getString("pwd"));
+					model.setId(resultSet.getInt("id"));
 					userList.add(model);
 				}
 			} catch (SQLException e) {

@@ -13,7 +13,9 @@ public class BufferedInputStreamDemo {
 
 //		try (ByteArrayInputStream byteInputStream=new ByteArrayInputStream(bufferedFile);
 //				BufferedInputStream buffInputStream=new BufferedInputStream(byteInputStream)
-		try (BufferedInputStream buffInputStream = new BufferedInputStream(new ByteArrayInputStream(bufferedFile));) {
+		try (BufferedInputStream buffInputStream = 
+				new BufferedInputStream(new ByteArrayInputStream(bufferedFile));) 
+		{
 				int c;
 				while((c=buffInputStream.read())!=-1)
 				{

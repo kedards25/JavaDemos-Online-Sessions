@@ -7,10 +7,10 @@ public class StringMethodsDemo {
 //		String val4="Angchekar";
 //		System.out.println(val.length());
 //		System.out.println(val.charAt(2));
-//		char []val2=new char[3];
+		char []val2=new char[3];
 //		//it includes starting index but not the ending index
-//		val.getChars(3,6, val2, 0);
-//		System.out.println(val2);
+		val.getChars(3,6, val2, 0);
+		System.out.println(val2);
 //		String val3="SankalpAngchekar";
 //		System.out.println(val3.compareTo(val));
 //		System.out.println(val.startsWith("S"));
@@ -25,7 +25,7 @@ public class StringMethodsDemo {
 		//in order to convert primitive value as string
 		//toString method cannot be used
 		//instead we have to use String.valueOf
-		String numString=String.valueOf(num);
+//		String numString=String.valueOf(num);
 //		System.out.println("value is: "+num);
 		
 		
